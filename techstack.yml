@@ -1,0 +1,1379 @@
+repo_name: qutek/aws-lambda-web-adapter
+report_id: a63b2f67d9e30f39af7e1f8ff43b8756
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-22T11:58:59+00:00'
+requested_by: bnusunny
+provider: github
+branch: main
+detected_tools_count: 102
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/aspnet-mvc-zip/src/Controllers/HomeController.cs
+  detection_source: examples/aspnet-mvc-zip/src/Controllers/HomeController.cs
+  last_updated_by: James Eastham
+  last_updated_on: 2023-09-27 09:05:38.000000000 Z
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/gin-zip/app/main.go
+  detection_source: examples/gin-zip/app/main.go
+  last_updated_by: Harold Sun
+  last_updated_on: 2022-09-28 15:06:43.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/aspnet-mvc-zip/src/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js
+  detection_source: examples/aspnet-mvc-zip/src/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js
+  last_updated_by: James Eastham
+  last_updated_on: 2023-09-27 09:05:38.000000000 Z
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/flask-zip/app/requirements.txt
+  detection_source: examples/flask-zip/app/requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-12 03:03:49.000000000 Z
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  version: 8.0.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/php-zip/app/composer.json
+  detection_source: examples/php-zip/app/composer.json
+  last_updated_by: Elon Niu
+  last_updated_on: 2023-03-15 05:01:51.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/flask-zip/app/requirements.txt
+  detection_source: examples/flask-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2022-09-25 03:19:40.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/sinatra/app/src/Gemfile
+  detection_source: examples/sinatra/app/src/Gemfile
+  last_updated_by: Kohei MATSUSHITA
+  last_updated_on: 2024-01-31 07:39:18.000000000 Z
+- name: Rust
+  description: A safe, concurrent, practical language
+  website_url: http://www.rust-lang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  version: 5.0.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package-lock.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/aspnet-webapi-zip/src/AspNetWebApi.csproj
+  detection_source: examples/aspnet-webapi-zip/src/AspNetWebApi.csproj
+  last_updated_by: James Eastham
+  last_updated_on: 2023-09-27 09:05:38.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/aspnet-mvc-zip/src/AspNetLambdaZipWebAdapter.csproj
+  detection_source: examples/aspnet-mvc-zip/src/AspNetLambdaZipWebAdapter.csproj
+  last_updated_by: James Eastham
+  last_updated_on: 2023-09-27 09:05:38.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/aspnet-mvc-zip/src/AspNetLambdaZipWebAdapter.csproj
+  detection_source: examples/aspnet-mvc-zip/src/AspNetLambdaZipWebAdapter.csproj
+  last_updated_by: James Eastham
+  last_updated_on: 2023-09-27 09:05:38.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/expressjs/app/src/package-lock.json
+  detection_source: examples/expressjs-zip/hello-world/package.json
+  last_updated_by: Harold Sun
+  last_updated_on: 2022-01-12 13:38:16.000000000 Z
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  version: 0.109.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-29 09:55:04.000000000 Z
+- name: Gin Gonic
+  description: HTTP web framework written in Go
+  website_url: https://gin-gonic.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/4221/7894478.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/gin-zip/app/go.mod
+  detection_source: examples/gin-zip/app/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-06 08:03:49.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 13.3.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package-lock.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/gin-zip/app/go.mod
+  detection_source: examples/gin-zip/app/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-06 08:03:49.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package-lock.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: Sinatra
+  description: Classy web-development dressed in a DSL
+  website_url: http://www.sinatrarb.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/999/logo.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/sinatra/app/src/Gemfile
+  detection_source: examples/sinatra/app/src/Gemfile
+  last_updated_by: Kohei MATSUSHITA
+  last_updated_on: 2024-01-31 07:39:18.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/springboot-response-streaming-zip/app/pom.xml
+  detection_source: examples/springboot-response-streaming-zip/app/pom.xml
+  last_updated_by: Muhammed Soyer
+  last_updated_on: 2023-06-01 09:04:54.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: Tokio
+  description: Runtime for writing reliable asynchronous applications with Rust
+  website_url: https://tokio.rs/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/12187/bC40df3r_400x400.jpg
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-21 05:47:16.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/expressjs-zip/hello-world/package.json
+  detection_source: examples/expressjs-zip/hello-world/package.json
+  last_updated_by: Harold Sun
+  last_updated_on: 2022-01-12 13:38:16.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/.github/workflows/pipeline.yaml
+  detection_source: ".github/workflows/pipeline.yaml"
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-22 06:00:41.000000000 Z
+- name: Hyper
+  description: On-Demand Container, Per-Second Billing
+  website_url: https://hyper.sh/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Containers as a Service
+  image_url: https://img.stackshare.io/service/3125/xSVaubUG_400x400.jpg
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-21 05:47:16.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/springboot-response-streaming-zip/app/src/main/resources/logback.xml
+  detection_source: examples/springboot-response-streaming-zip/app/src/main/resources/logback.xml
+  last_updated_by: Muhammed Soyer
+  last_updated_on: 2023-06-01 09:04:54.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 8.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/expressjs-zip/hello-world/package.json
+  detection_source: examples/expressjs-zip/hello-world/package.json
+  last_updated_by: Harold Sun
+  last_updated_on: 2022-01-12 13:38:16.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nginx-zip/nginx/conf/nginx.conf
+  detection_source: examples/nginx-zip/nginx/conf/nginx.conf
+  last_updated_by: Elon Niu
+  last_updated_on: 2023-03-12 08:23:44.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/aspnet-webapi-zip/src/AspNetWebApi.csproj
+  detection_source: examples/aspnet-webapi-zip/src/AspNetWebApi.csproj
+  last_updated_by: James Eastham
+  last_updated_on: 2023-09-27 09:05:38.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package-lock.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/flask-zip/app/requirements.txt
+  detection_source: examples/flask-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2022-09-25 03:19:40.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/sinatra/app/src/Gemfile
+  detection_source: examples/sinatra/app/src/Gemfile
+  last_updated_by: Kohei MATSUSHITA
+  last_updated_on: 2024-01-31 07:39:18.000000000 Z
+- name: Tower
+  description: The most powerful Git client for Mac &amp; Windows
+  website_url: https://www.git-tower.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Source Code Management Desktop Apps
+  image_url: https://img.stackshare.io/service/1601/tower-dock-icon_transparent_2x.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-21 05:47:16.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/aspnet-mvc-zip/AspNetLambdaZipWebAdapter.sln
+  detection_source: examples/aspnet-mvc-zip/AspNetLambdaZipWebAdapter.sln
+  last_updated_by: James Eastham
+  last_updated_on: 2023-09-27 09:05:38.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/fastapi-zip/tests/requirements.txt
+  detection_source: examples/fastapi-zip/tests/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2022-10-06 17:12:14.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/springboot-response-streaming-zip/app/src/main/resources/application.properties
+  detection_source: examples/springboot-response-streaming-zip/app/src/main/resources/application.properties
+  last_updated_by: Muhammed Soyer
+  last_updated_on: 2023-06-01 09:04:54.000000000 Z
+- name: Dinero.js
+  description: A library for working with monetary values in JavaScript
+  website_url: https://sarahdayan.github.io/dinero.js/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/8866/6490071b-81e8-4047-937a-6689cee3b515.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter
+  detection_source: Repo Metadata
+- name: Websockets
+  description: A technology that makes it possible to open a two-way interactive communication
+  website_url: https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+  version: '12.0'
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4220/LNPwoiWi_400x400.jpg
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-29 09:55:04.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: Flask
+  description: A simple framework for building complex web applications
+  package_url: https://pypi.org/project/Flask
+  version: 2.3.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19834/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/flask-zip/app/requirements.txt
+  detection_source: examples/flask-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2023-05-02 07:09:35.000000000 Z
+- name: MarkupSafe
+  description: Safely add untrusted strings to HTML/XML markup
+  package_url: https://pypi.org/project/MarkupSafe
+  version: 2.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19945/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/flask-zip/app/requirements.txt
+  detection_source: examples/flask-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2023-02-16 10:58:19.000000000 Z
+- name: PyYAML
+  description: YAML parser and emitter for Python
+  package_url: https://pypi.org/project/PyYAML
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19829/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-29 09:55:04.000000000 Z
+- name: Werkzeug
+  description: The comprehensive WSGI web application library
+  package_url: https://pypi.org/project/Werkzeug
+  version: 3.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19890/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/flask-zip/app/requirements.txt
+  detection_source: examples/flask-zip/app/requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-14 08:12:39.000000000 Z
+- name: anyio
+  description: High level compatibility layer for multiple asynchronous event loop
+    implementations
+  package_url: https://pypi.org/project/anyio
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20757/default_c1e4fc9b7faffe723aa1e18d3dd3049b39849e4d.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-29 09:55:04.000000000 Z
+- name: blinker
+  description: Fast, simple object-to-object and broadcast signaling
+  package_url: https://pypi.org/project/blinker
+  version: 1.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20273/default_847617f8273bac4dd5921370b0684f29c3397a68.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/flask-zip/app/requirements.txt
+  detection_source: examples/flask-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2023-05-02 07:09:35.000000000 Z
+- name: boto3
+  description: The AWS SDK for Python
+  package_url: https://pypi.org/project/boto3
+  version: 1.34.28
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-26 03:00:47.000000000 Z
+- name: botocore
+  description: Low-level, data-driven core of boto 3
+  package_url: https://pypi.org/project/botocore
+  version: 1.34.28
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19884/default_b8be3f20d4af87021ae3618d5c50b72c985ea31f.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-26 03:00:47.000000000 Z
+- name: click
+  description: Composable command line interface toolkit
+  package_url: https://pypi.org/project/click
+  version: 8.1.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-29 09:55:04.000000000 Z
+- name: exceptiongroup
+  description: Backport of PEP 654
+  package_url: https://pypi.org/project/exceptiongroup
+  version: 1.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-29 09:55:04.000000000 Z
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 20.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/flask-zip/app/requirements.txt
+  detection_source: examples/flask-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2022-09-25 03:19:40.000000000 Z
+- name: h11
+  description: A pure-Python
+  package_url: https://pypi.org/project/h11
+  version: 0.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-29 09:55:04.000000000 Z
+- name: httptools
+  description: A collection of framework independent HTTP protocol utils
+  package_url: https://pypi.org/project/httptools
+  version: 0.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-29 09:55:04.000000000 Z
+- name: importlib-metadata
+  description: Read metadata from Python packages
+  package_url: https://pypi.org/project/importlib-metadata
+  version: 6.6.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20000/default_7c419d5d5f0cfad7886b95266eae7ba305cedacf.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/flask-zip/app/requirements.txt
+  detection_source: examples/flask-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2023-05-02 07:09:35.000000000 Z
+- name: itsdangerous
+  description: Various helpers to pass data to untrusted environments and back
+  package_url: https://pypi.org/project/itsdangerous
+  version: 2.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19989/default_b1f1fc9c4c59a78443018e01395203ba8c61dcde.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/flask-zip/app/requirements.txt
+  detection_source: examples/flask-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2023-02-16 10:58:19.000000000 Z
+- name: jmespath
+  description: JSON Matching Expressions
+  package_url: https://pypi.org/project/jmespath
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19993/default_1ae269f6aa26d7008f18ed620309f6ae89bbfa12.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-26 03:00:47.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  version: 2.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-29 09:55:04.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  version: 2.8.2
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-26 03:00:47.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 1.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-29 09:55:04.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/fastapi-zip/tests/requirements.txt
+  detection_source: examples/fastapi-zip/tests/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2022-10-06 17:12:14.000000000 Z
+- name: s3transfer
+  description: An Amazon S3 Transfer Manager
+  package_url: https://pypi.org/project/s3transfer
+  version: 0.10.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20042/default_15ea2ed8281eccea374610791971ca44800f16ec.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-26 03:00:47.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-26 03:00:47.000000000 Z
+- name: starlette
+  description: The little ASGI library that shines
+  package_url: https://pypi.org/project/starlette
+  version: 0.36.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20295/default_640b00772a7025571fa2ac02de971e76f9662aa9.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-02-12 11:18:58.000000000 Z
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 2.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-26 03:00:47.000000000 Z
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  version: 0.27.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-29 09:55:04.000000000 Z
+- name: uvloop
+  description: Fast implementation of asyncio event loop on top of libuv
+  package_url: https://pypi.org/project/uvloop
+  version: 0.19.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20187/default_c5c395350b07388a35a5e9efffb0ea706d6e196d.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-29 09:55:04.000000000 Z
+- name: websockets
+  description: An implementation of the WebSocket Protocol
+  package_url: https://pypi.org/project/websockets
+  version: '12.0'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19951/default_fbe690a687f1af7dc36ac3d526708be3294c4cc9.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  detection_source: examples/bedrock-agent-fastapi-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2024-01-29 09:55:04.000000000 Z
+- name: zipp
+  description: Backport of pathlib-compatible object wrapper for zip files
+  package_url: https://pypi.org/project/zipp
+  version: 3.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20247/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/flask-zip/app/requirements.txt
+  detection_source: examples/flask-zip/app/requirements.txt
+  last_updated_by: Harold Sun
+  last_updated_on: 2023-05-02 07:09:35.000000000 Z
+- name: codec
+  description: Idiomatic codec and rpc lib for msgpack, cbor, json, etc
+  package_url: https://pkg.go.dev/github.com/ugorji/go/codec
+  version: 1.2.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/gin-zip/app/go.sum
+  detection_source: examples/gin-zip/app/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-06 08:03:49.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.17.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/gin-zip/app/go.sum
+  detection_source: examples/gin-zip/app/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-19 22:13:09.000000000 Z
+- name: gin
+  description: Gin is a HTTP web framework written in Go
+  package_url: https://pkg.go.dev/github.com/gin-gonic/gin
+  version: 1.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/gin-zip/app/go.sum
+  detection_source: examples/gin-zip/app/go.mod
+  last_updated_by: Harold Sun
+  last_updated_on: 2022-09-28 15:06:43.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/gin-zip/app/go.sum
+  detection_source: examples/gin-zip/app/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-06 08:03:49.000000000 Z
+- name: json-iterator/go
+  description: A high-performance 100% compatible drop-in replacement of "encoding/json"
+  package_url: https://pkg.go.dev/github.com/json-iterator/go
+  version: 1.1.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/gin-zip/app/go.sum
+  detection_source: examples/gin-zip/app/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-06 08:03:49.000000000 Z
+- name: locales
+  description: ":earth_americas: a set of locales generated from the CLDR Project
+    which can be used independently or within an i18n package; these were built for
+    use with"
+  package_url: https://pkg.go.dev/github.com/go-playground/locales
+  version: 0.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/gin-zip/app/go.sum
+  detection_source: examples/gin-zip/app/go.mod
+  last_updated_by: Harold Sun
+  last_updated_on: 2023-02-26 04:44:12.000000000 Z
+- name: mimetype
+  description: A golang library for detecting the MIME type and file extension
+  package_url: https://pkg.go.dev/github.com/gabriel-vasile/mimetype
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/gin-zip/app/go.sum
+  detection_source: examples/gin-zip/app/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-06 08:03:49.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.17.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/gin-zip/app/go.sum
+  detection_source: examples/gin-zip/app/go.mod
+  last_updated_by: Harold Sun
+  last_updated_on: 2022-09-28 15:06:43.000000000 Z
+- name: reflect2
+  description: Reflect api without runtime reflect.Value cost
+  package_url: https://pkg.go.dev/github.com/modern-go/reflect2
+  version: 1.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/gin-zip/app/go.sum
+  detection_source: examples/gin-zip/app/go.mod
+  last_updated_by: Harold Sun
+  last_updated_on: 2022-09-28 15:06:43.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/gin-zip/app/go.sum
+  detection_source: examples/gin-zip/app/go.mod
+  last_updated_by: Harold Sun
+  last_updated_on: 2022-09-28 15:06:43.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.14.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/gin-zip/app/go.sum
+  detection_source: examples/gin-zip/app/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-19 22:13:09.000000000 Z
+- name: universal-translator
+  description: ":speech_balloon: i18n Translator for Go/Golang using CLDR data + pluralization
+    rules"
+  package_url: https://pkg.go.dev/github.com/go-playground/universal-translator
+  version: 0.18.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/gin-zip/app/go.sum
+  detection_source: examples/gin-zip/app/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-06 08:03:49.000000000 Z
+- name: "@tailwindcss/typography"
+  description: A Tailwind CSS plugin for automatically styling plain HTML content
+    with beautiful typographic defaults
+  package_url: https://www.npmjs.com/@tailwindcss/typography
+  version: 0.5.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package-lock.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.15.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package-lock.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.33
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package-lock.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package-lock.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  version: 13.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package-lock.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/expressjs/app/src/package-lock.json
+  detection_source: examples/expressjs-zip/hello-world/package.json
+  last_updated_by: Harold Sun
+  last_updated_on: 2022-01-12 13:38:16.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 13.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package-lock.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: ms
+  description: Tiny millisecond conversion utility
+  package_url: https://www.npmjs.com/ms
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16565/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/expressjs/app/src/package-lock.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package-lock.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: sharp
+  description: High performance Node.js image processing
+  package_url: https://www.npmjs.com/sharp
+  version: 0.32.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16806/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package-lock.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-17 01:09:28.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/nextjs-response-streaming/package-lock.json
+  detection_source: examples/nextjs-response-streaming/package.json
+  last_updated_by: Xue Jiaqing
+  last_updated_on: 2023-04-20 05:37:36.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/springboot-response-streaming-zip/app/pom.xml
+  detection_source: examples/springboot-response-streaming-zip/app/pom.xml
+  last_updated_by: Muhammed Soyer
+  last_updated_on: 2023-06-01 09:04:54.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/springboot-response-streaming-zip/app/pom.xml
+  detection_source: examples/springboot-response-streaming-zip/app/pom.xml
+  last_updated_by: Muhammed Soyer
+  last_updated_on: 2023-06-01 09:04:54.000000000 Z
+- name: Amazon.Lambda.APIGatewayEvents
+  description: Amazon Lambda .NET Core support - API Gateway package
+  package_url: https://www.nuget.org/Amazon.Lambda.APIGatewayEvents
+  version: 2.6.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14165/default_95e62237fe99b6cac91c2c45f56ea2f28dc7a851.png
+  detection_source_url: https://github.com/qutek/aws-lambda-web-adapter/blob/main/examples/aspnet-webapi-zip/src/AspNetWebApi.csproj
+  detection_source: examples/aspnet-webapi-zip/src/AspNetWebApi.csproj
+  last_updated_by: James Eastham
+  last_updated_on: 2023-09-27 09:05:38.000000000 Z
